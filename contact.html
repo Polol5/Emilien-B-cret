@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <h1>nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <legend>nous contacter</legend>
+            <div></div>
+            <label for="emailinput">votre email</label>
+            <input type="text" name="email" id="emailinput" placeholder="contact@demo.fr">
+        </div>
+        <div>
+            <label for="nameinput">votre nom</label>
+            <input type="text" name="firstname" id="nameinput">
+        </div>
+        <div>
+            <input type="radio" name="sexe" id="masculin">
+            <label for="masculin">masculin</label>
+        </div>
+        <div>
+            <input type="radio" name="sexe" id="feminin">
+            <label for="feminin">feminin</label>
+        </div>
+        <div>
+            <label for="message">votre message</label>
+            <textarea name="message" id="message" cols="30" rows="10">votre message</textarea>
+        </div>
+        <DIV><label><input type="checkbox" name="cgu" checked>j'accetpe les conditions d'utilisations</label></DIV>
+        <input type="submit" value="Envoyer un email">
+        <input type="reset" value="annuler">
+        </fieldset>
+    </form>
+</body>
+</html>
