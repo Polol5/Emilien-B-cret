@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+    font-family: "montserrat", sans-serif;
+    line-height: 1.8%;
+    margin: 0;
+}
+
+.topbar{
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px;
+}
+
+.topbar nav {
+    float: left;
+
+}
+
+.topbar nav a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+    
+}
+
+.topbar nav a:hover .topbar nav a.active{
+    color: black;
+}
+
+.social{
+    float: right;
+}
+
+.social a {
+    padding: 12px;
+}
+
+.banniere img {
+    width: 100%;
+    height:auto
+}
+
+.main {
+    float: left;
+    height: 1000px;
+    background: black;
+    width: calc(100% - 375);
+}
+
+.sidebar {
+    float: right;
+    height: 400px;
+    background: gray;
+    width: 375px;
+    padding: 40px;
+}
+
+.sidebar-title{
+    font-size: 30px;
+    color: black;
+    margin: 35px 0;
+}
+.sidebar-title:first-child {
+    margin-top: 0;
+}
+.footer {
+    clear:both
+}
