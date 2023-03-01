@@ -6,7 +6,7 @@ body{
     font-size: 16px;
     color: black;
     font-family: "montserrat", sans-serif;
-    line-height: 1.8%;
+    line-height: 1.%;
     margin: 0;
 }
 
@@ -52,17 +52,17 @@ body{
 
 .main {
     float: left;
-    height: 1000px;
     background: black;
-    width: calc(100% - 375);
+    width: calc(100% - 400px);
 }
 
 .sidebar {
     float: right;
-    height: 400px;
+    height: 500px;
     background: gray;
-    width: 375px;
-    padding: 40px;
+    width: 500px;
+    padding: 100px;
+    padding-bottom: 40px;
 }
 
 .sidebar-title{
@@ -74,5 +74,5 @@ body{
     margin-top: 0;
 }
 .footer {
-    clear:both
+    clear:both;
 }
